@@ -1,0 +1,1947 @@
+2023-11-15 21:55:55,139 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-15 22:00:35,467 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\interview\admin.py changed, reloading.
+2023-11-15 22:00:36,883 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-15 22:00:39,196 interview.admin 33 INFO     admin exported 3 candidate records
+2023-11-15 22:23:42,691 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-15 22:23:52,231 django.security.DisallowedHost 124 ERROR    Invalid HTTP_HOST header: 'localhost:8080'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8080'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2023-11-15 22:23:52,272 django.request 241 WARNING  Bad Request: /admin/interview/candidate/
+2023-11-15 22:24:49,898 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\settings\local.py changed, reloading.
+2023-11-15 22:24:51,215 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-15 22:24:51,501 django.security.SuspiciousSession 108 WARNING  Session data corrupted
+2023-11-15 22:24:51,523 django.security.SuspiciousSession 108 WARNING  Session data corrupted
+2023-11-15 22:24:58,121 django.security.SuspiciousSession 108 WARNING  Session data corrupted
+2023-11-15 22:25:34,201 django.security.SuspiciousSession 108 WARNING  Session data corrupted
+2023-11-15 22:25:34,216 django.security.SuspiciousSession 108 WARNING  Session data corrupted
+2023-11-15 22:25:38,973 django.request 241 WARNING  Not Found: /admin]
+2023-11-15 22:25:43,564 django.security.SuspiciousSession 108 WARNING  Session data corrupted
+2023-11-15 22:25:43,578 django.security.SuspiciousSession 108 WARNING  Session data corrupted
+2023-11-15 22:25:49,130 django.security.SuspiciousSession 108 WARNING  Session data corrupted
+2023-11-15 22:29:24,320 django.request 241 WARNING  Not Found: /favicon.ico
+2023-11-15 22:30:23,178 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-15 22:34:45,584 django.request 241 WARNING  Not Found: /favicon.ico
+2023-11-15 22:34:45,648 django.request 241 WARNING  Not Found: /
+2023-11-15 22:34:46,956 django.request 241 WARNING  Not Found: /favicon.ico
+2023-11-15 22:34:51,556 django.request 241 WARNING  Not Found: /favicon.ico
+2023-11-15 22:42:31,486 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-15 22:43:51,095 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-15 22:47:03,361 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\recruitment\urls.py changed, reloading.
+2023-11-15 22:47:04,663 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-15 22:59:02,224 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\interview\admin.py changed, reloading.
+2023-11-15 22:59:03,594 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-15 22:59:05,582 django.request 241 ERROR    Internal Server Error: /admin/interview/candidate/3/change/
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 771, in get_form
+    readonly_fields = self.get_readonly_fields(request, obj)
+  File "F:\PycharmProject\recruitment\interview\admin.py", line 57, in get_readonly_fields
+    group_name = self.get_group_names(request.name)
+AttributeError: 'CandidateAdmin' object has no attribute 'get_group_names'
+2023-11-15 23:00:29,475 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\interview\admin.py changed, reloading.
+2023-11-15 23:00:30,773 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-15 23:00:34,709 django.request 241 ERROR    Internal Server Error: /admin/interview/candidate/3/change/
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 771, in get_form
+    readonly_fields = self.get_readonly_fields(request, obj)
+  File "F:\PycharmProject\recruitment\interview\admin.py", line 58, in get_readonly_fields
+    group_name = Group.objects.get(user=request.user)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.Group.DoesNotExist: Group matching query does not exist.
+2023-11-15 23:03:15,661 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\interview\admin.py changed, reloading.
+2023-11-15 23:03:17,213 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-15 23:03:34,306 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-15 23:06:14,125 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\interview\admin.py changed, reloading.
+2023-11-15 23:06:15,458 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-15 23:06:33,121 interview.admin 67 INFO     interviewer is in user's group for tom
+2023-11-15 23:06:33,126 interview.admin 67 INFO     interviewer is in user's group for tom
+2023-11-15 23:09:19,367 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\interview\admin.py changed, reloading.
+2023-11-15 23:09:20,866 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-15 23:10:21,418 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\interview\admin.py changed, reloading.
+2023-11-15 23:10:22,895 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-15 23:12:28,382 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\interview\admin.py changed, reloading.
+2023-11-15 23:12:29,699 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-15 23:12:31,370 django.request 241 ERROR    Internal Server Error: /admin/interview/candidate/
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "F:\PycharmProject\recruitment\interview\admin.py", line 65, in get_changelist_instance
+    self.list_editable = self.get_list_editable(request)
+  File "F:\PycharmProject\recruitment\interview\admin.py", line 60, in get_list_editable
+    if request.user.is_supperuser or 'hr' in group_names:
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'is_supperuser'
+2023-11-15 23:12:46,910 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\interview\admin.py changed, reloading.
+2023-11-15 23:12:48,234 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-17 20:12:15,560 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-17 20:12:48,299 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-17 20:12:51,475 django.security.SuspiciousSession 108 WARNING  Session data corrupted
+2023-11-17 20:12:51,496 django.security.SuspiciousSession 108 WARNING  Session data corrupted
+2023-11-17 20:12:58,927 django.security.SuspiciousSession 108 WARNING  Session data corrupted
+2023-11-17 20:16:39,447 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\settings\base.py changed, reloading.
+2023-11-17 20:16:40,934 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-17 20:16:54,094 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-17 20:26:10,720 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\interview\admin.py changed, reloading.
+2023-11-17 20:26:12,252 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-17 20:27:50,751 interview.admin 79 INFO     interviewer is in user's group for mike
+2023-11-17 20:27:50,878 interview.admin 79 INFO     interviewer is in user's group for mike
+2023-11-17 20:28:03,232 interview.admin 79 INFO     interviewer is in user's group for mike
+2023-11-17 20:28:03,309 interview.admin 79 INFO     interviewer is in user's group for mike
+2023-11-17 20:28:29,690 interview.admin 79 INFO     interviewer is in user's group for tom
+2023-11-17 20:28:29,802 interview.admin 79 INFO     interviewer is in user's group for tom
+2023-11-17 20:32:39,406 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\interview\admin.py changed, reloading.
+2023-11-17 20:32:41,092 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-17 20:35:09,637 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\interview\candidate_fieldset.py changed, reloading.
+2023-11-17 20:35:11,084 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-17 20:39:53,619 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\interview\admin.py changed, reloading.
+2023-11-17 20:39:55,172 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-17 20:47:39,580 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\interview\admin.py changed, reloading.
+2023-11-17 20:47:41,075 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-17 20:49:33,209 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 10:40:47,756 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 10:41:17,595 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\interview\admin.py changed, reloading.
+2023-11-18 10:41:18,976 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 18:47:47,099 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 18:47:56,391 django.request 241 WARNING  Not Found: /accounts
+2023-11-18 18:47:56,714 django.request 241 WARNING  Not Found: /favicon.ico
+2023-11-18 18:51:49,584 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\urls.py changed, reloading.
+2023-11-18 18:51:51,003 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 19:00:35,036 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\recruitment\urls.py changed, reloading.
+2023-11-18 19:00:36,876 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 19:01:11,778 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 19:05:17,309 django.request 241 WARNING  Not Found: /accounts
+2023-11-18 19:10:05,430 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\settings\base.py changed, reloading.
+2023-11-18 19:10:06,740 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 19:10:15,897 django.request 241 WARNING  Not Found: /accounts/profile/
+2023-11-18 19:10:28,296 django.request 241 WARNING  Not Found: /accounts/profile/
+2023-11-18 19:10:53,464 django.request 241 WARNING  Not Found: /accounts/profile/
+2023-11-18 19:11:18,739 django.request 241 WARNING  Not Found: /accounts/profile/
+2023-11-18 19:12:41,054 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\recruitment\urls.py changed, reloading.
+2023-11-18 19:12:42,351 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 19:13:35,817 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 19:13:40,493 django.request 241 WARNING  Not Found: /accounts/profile/
+2023-11-18 19:14:46,824 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\settings\base.py changed, reloading.
+2023-11-18 19:14:48,354 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 19:14:55,446 django.request 241 WARNING  Not Found: /accounts/profile/
+2023-11-18 19:15:17,930 django.request 241 WARNING  Not Found: /accounts/
+2023-11-18 19:15:29,735 django.request 241 WARNING  Not Found: /accounts/profile/
+2023-11-18 19:17:00,294 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\settings\base.py changed, reloading.
+2023-11-18 19:17:01,823 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 19:21:36,396 django.request 241 WARNING  Not Found: /favicon.ico
+2023-11-18 19:21:59,309 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 19:22:08,660 django.request 241 WARNING  Not Found: /favicon.ico
+2023-11-18 19:24:38,545 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 19:24:53,567 django.request 241 WARNING  Not Found: /favicon.ico
+2023-11-18 19:31:52,612 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 19:36:30,214 django.request 241 ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'translate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\PycharmProject\recruitment\jobs\views.py", line 21, in joblist
+    return HttpResponse(template.render(context))
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 9: 'translate', expected 'endblock'. Did you forget to register or load this tag?
+2023-11-18 19:39:40,679 django.request 241 ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\PycharmProject\recruitment\jobs\views.py", line 21, in joblist
+    return HttpResponse(template.render(context))
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 5: 'block'. Looking for one of: endblock.
+2023-11-18 19:43:18,218 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\views.py changed, reloading.
+2023-11-18 19:43:19,564 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 19:45:09,028 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\views.py changed, reloading.
+2023-11-18 19:45:10,585 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 19:52:44,445 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\models.py changed, reloading.
+2023-11-18 19:52:46,056 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 19:52:56,903 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\models.py changed, reloading.
+2023-11-18 19:52:58,312 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 19:54:51,714 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\models.py changed, reloading.
+2023-11-18 19:54:53,142 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 19:56:24,302 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\models.py changed, reloading.
+2023-11-18 19:58:15,045 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 20:43:33,947 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 20:49:45,872 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\views.py changed, reloading.
+2023-11-18 20:49:47,321 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 20:51:17,190 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\views.py changed, reloading.
+2023-11-18 20:51:18,684 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 20:53:50,525 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\urls.py changed, reloading.
+2023-11-18 20:53:51,819 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 20:54:01,706 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\urls.py changed, reloading.
+2023-11-18 20:54:02,988 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 20:54:21,782 django.request 241 ERROR    Internal Server Error: /resume/add
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'scrf_token'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 2: 'scrf_token'. Did you forget to register or load this tag?
+2023-11-18 20:59:15,298 django.request 241 WARNING  Not Found: /resume/add/
+2023-11-18 20:59:34,564 django.request 241 WARNING  Not Found: /resume/add/
+2023-11-18 21:00:24,673 django.request 241 WARNING  Not Found: /resume/add/
+2023-11-18 21:01:23,374 django.request 241 WARNING  Not Found: /resume/add/
+2023-11-18 21:02:00,252 django.request 241 WARNING  Not Found: /resume/add/
+2023-11-18 21:06:06,913 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\views.py changed, reloading.
+2023-11-18 21:06:08,362 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 21:07:28,751 django.request 241 WARNING  Not Found: /resume/add/
+2023-11-18 21:07:53,812 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\urls.py changed, reloading.
+2023-11-18 21:07:55,352 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 21:11:51,790 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\settings\base.py changed, reloading.
+2023-11-18 21:11:53,397 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 21:19:32,419 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\admin.py changed, reloading.
+2023-11-18 21:19:34,056 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 21:22:35,697 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\admin.py changed, reloading.
+2023-11-18 21:22:37,181 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 21:23:01,719 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\admin.py changed, reloading.
+2023-11-18 21:23:03,099 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 21:30:46,373 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\interview\admin.py changed, reloading.
+2023-11-18 21:30:48,013 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 21:32:04,913 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\views.py changed, reloading.
+2023-11-18 21:32:06,585 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 21:33:57,366 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\urls.py changed, reloading.
+2023-11-18 21:33:58,921 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 21:36:22,375 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\interview\admin.py changed, reloading.
+2023-11-18 21:36:23,752 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-18 21:39:15,953 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\interview\admin.py changed, reloading.
+2023-11-18 21:39:17,355 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 07:33:45,756 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 08:10:05,648 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 08:17:48,079 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\settings\base.py changed, reloading.
+2023-11-19 08:17:49,460 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 09:23:05,452 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\interview\performance.py changed, reloading.
+2023-11-19 09:23:07,127 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 09:28:07,263 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\interview\performance.py changed, reloading.
+2023-11-19 09:28:08,937 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 09:29:55,098 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\settings\base.py changed, reloading.
+2023-11-19 09:29:56,782 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 09:43:51,638 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\views.py changed, reloading.
+2023-11-19 09:43:53,279 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 09:44:26,297 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\urls.py changed, reloading.
+2023-11-19 09:44:27,636 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 09:45:04,228 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\urls.py changed, reloading.
+2023-11-19 09:45:05,816 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 09:45:12,782 root         313 ERROR    消息发送失败, Request Exception!
+2023-11-19 09:45:12,845 django.request 241 ERROR    Internal Server Error: /detail_resume/3/
+Traceback (most recent call last):
+  File "F:\PycharmProject\recruitment\jobs\views.py", line 45, in detail_resume
+    resume = Resume.objects.get(pk=resume_id)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+jobs.models.Resume.DoesNotExist: Resume matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\PycharmProject\recruitment\jobs\views.py", line 49, in detail_resume
+    raise Http404("resume does not exist")
+django.http.response.Http404: resume does not exist
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\PycharmProject\recruitment\interview\performance.py", line 55, in process_exception
+    dingtalk.send(message)
+  File "F:\PycharmProject\recruitment\interview\dingtalk.py", line 17, in send
+    xiaoding.send_text(msg=('面试通知: %s' %message), at_mobiles=at_mobiles)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2023-11-19 09:46:01,482 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\urls.py changed, reloading.
+2023-11-19 09:46:02,831 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 09:52:10,914 django.security.csrf 241 WARNING  Forbidden (CSRF token from POST incorrect.): /admin/logout/
+2023-11-19 10:02:05,840 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\views.py changed, reloading.
+2023-11-19 10:02:07,300 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 10:25:16,965 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\urls.py changed, reloading.
+2023-11-19 10:25:18,424 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 10:33:16,699 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\views.py changed, reloading.
+2023-11-19 10:33:18,309 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 10:49:17,950 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\recruitment\urls.py changed, reloading.
+2023-11-19 10:49:19,713 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 10:51:32,513 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\settings\base.py changed, reloading.
+2023-11-19 10:51:34,136 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 10:53:54,640 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\recruitment\urls.py changed, reloading.
+2023-11-19 10:53:56,518 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 11:12:22,398 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\settings\base.py changed, reloading.
+2023-11-19 11:12:24,036 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 11:12:42,854 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\settings\base.py changed, reloading.
+2023-11-19 11:12:44,227 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 11:13:00,175 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\settings\base.py changed, reloading.
+2023-11-19 11:13:01,813 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 11:15:41,796 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\views.py changed, reloading.
+2023-11-19 11:15:43,387 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 11:16:48,629 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\views.py changed, reloading.
+2023-11-19 11:16:50,183 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 11:16:50,820 root         313 ERROR    消息发送失败, Request Exception!
+2023-11-19 11:16:50,871 django.request 241 ERROR    Internal Server Error: /job/1
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\PycharmProject\recruitment\jobs\views.py", line 41, in detail
+    loader.info('job info fetched from database jobid: %s' % job_id)
+AttributeError: module 'django.template.loader' has no attribute 'info'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\PycharmProject\recruitment\interview\performance.py", line 55, in process_exception
+    dingtalk.send(message)
+  File "F:\PycharmProject\recruitment\interview\dingtalk.py", line 17, in send
+    xiaoding.send_text(msg=('面试通知: %s' %message), at_mobiles=at_mobiles)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2023-11-19 11:17:23,991 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\views.py changed, reloading.
+2023-11-19 11:17:25,373 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 11:17:25,752 jobs.views   41 INFO     job info fetched from database jobid: 1
+2023-11-19 11:18:56,564 jobs.views   41 INFO     job info fetched from database jobid: 2
+2023-11-19 13:58:59,750 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\recruitment\__init__.py changed, reloading.
+2023-11-19 13:59:01,382 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 14:00:43,826 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\settings\base.py changed, reloading.
+2023-11-19 14:00:45,399 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 14:27:09,455 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 14:35:01,054 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\settings\base.py changed, reloading.
+2023-11-19 14:35:02,837 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 14:39:22,148 django.security.csrf 241 WARNING  Forbidden (CSRF token from POST incorrect.): /resume/add/
+2023-11-19 14:44:26,344 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\admin.py changed, reloading.
+2023-11-19 14:44:27,991 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 15:11:25,995 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 15:11:33,904 root         313 ERROR    消息发送失败, Request Exception!
+2023-11-19 15:11:33,982 django.request 241 ERROR    Internal Server Error: /admin/running/city/
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: city
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: city
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\PycharmProject\recruitment\interview\performance.py", line 55, in process_exception
+    dingtalk.send(message)
+  File "F:\PycharmProject\recruitment\interview\dingtalk.py", line 17, in send
+    xiaoding.send_text(msg=('面试通知: %s' %message), at_mobiles=at_mobiles)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2023-11-19 15:13:23,107 root         313 ERROR    消息发送失败, Request Exception!
+2023-11-19 15:13:23,181 django.request 241 ERROR    Internal Server Error: /admin/running/country/
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: country
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: country
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\PycharmProject\recruitment\interview\performance.py", line 55, in process_exception
+    dingtalk.send(message)
+  File "F:\PycharmProject\recruitment\interview\dingtalk.py", line 17, in send
+    xiaoding.send_text(msg=('面试通知: %s' %message), at_mobiles=at_mobiles)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2023-11-19 15:15:34,450 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\running\admin.py changed, reloading.
+2023-11-19 15:15:35,896 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 15:16:38,188 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 15:16:44,727 root         313 ERROR    消息发送失败, Request Exception!
+2023-11-19 15:16:44,798 django.request 241 ERROR    Internal Server Error: /admin/running/city/
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: city
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: city
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\PycharmProject\recruitment\interview\performance.py", line 55, in process_exception
+    dingtalk.send(message)
+  File "F:\PycharmProject\recruitment\interview\dingtalk.py", line 17, in send
+    xiaoding.send_text(msg=('面试通知: %s' %message), at_mobiles=at_mobiles)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2023-11-19 15:17:03,402 root         313 ERROR    消息发送失败, Request Exception!
+2023-11-19 15:17:03,475 django.request 241 ERROR    Internal Server Error: /admin/running/city/
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: city
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: city
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\PycharmProject\recruitment\interview\performance.py", line 55, in process_exception
+    dingtalk.send(message)
+  File "F:\PycharmProject\recruitment\interview\dingtalk.py", line 17, in send
+    xiaoding.send_text(msg=('面试通知: %s' %message), at_mobiles=at_mobiles)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2023-11-19 15:18:13,938 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\running\admin.py changed, reloading.
+2023-11-19 15:18:15,370 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 15:18:18,345 root         313 ERROR    消息发送失败, Request Exception!
+2023-11-19 15:18:18,419 django.request 241 ERROR    Internal Server Error: /admin/running/city/
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: city
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: city
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\PycharmProject\recruitment\interview\performance.py", line 55, in process_exception
+    dingtalk.send(message)
+  File "F:\PycharmProject\recruitment\interview\dingtalk.py", line 17, in send
+    xiaoding.send_text(msg=('面试通知: %s' %message), at_mobiles=at_mobiles)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2023-11-19 15:18:21,745 root         313 ERROR    消息发送失败, Request Exception!
+2023-11-19 15:18:21,820 django.request 241 ERROR    Internal Server Error: /admin/running/province/
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: province
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: province
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\PycharmProject\recruitment\interview\performance.py", line 55, in process_exception
+    dingtalk.send(message)
+  File "F:\PycharmProject\recruitment\interview\dingtalk.py", line 17, in send
+    xiaoding.send_text(msg=('面试通知: %s' %message), at_mobiles=at_mobiles)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2023-11-19 15:20:50,635 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\running\admin.py changed, reloading.
+2023-11-19 15:20:52,089 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 15:20:55,896 root         313 ERROR    消息发送失败, Request Exception!
+2023-11-19 15:20:55,971 django.request 241 ERROR    Internal Server Error: /admin/running/area/
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: area
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: area
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\PycharmProject\recruitment\interview\performance.py", line 55, in process_exception
+    dingtalk.send(message)
+  File "F:\PycharmProject\recruitment\interview\dingtalk.py", line 17, in send
+    xiaoding.send_text(msg=('面试通知: %s' %message), at_mobiles=at_mobiles)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2023-11-19 15:27:40,890 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 15:28:09,594 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\running\models.py changed, reloading.
+2023-11-19 15:28:11,055 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 15:28:11,917 root         313 ERROR    消息发送失败, Request Exception!
+2023-11-19 15:28:11,997 django.request 241 ERROR    Internal Server Error: /admin/running/area/
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: area
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: area
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\PycharmProject\recruitment\interview\performance.py", line 55, in process_exception
+    dingtalk.send(message)
+  File "F:\PycharmProject\recruitment\interview\dingtalk.py", line 17, in send
+    xiaoding.send_text(msg=('面试通知: %s' %message), at_mobiles=at_mobiles)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2023-11-19 15:28:16,052 root         313 ERROR    消息发送失败, Request Exception!
+2023-11-19 15:28:16,122 django.request 241 ERROR    Internal Server Error: /admin/running/area/
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: area
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: area
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\PycharmProject\recruitment\interview\performance.py", line 55, in process_exception
+    dingtalk.send(message)
+  File "F:\PycharmProject\recruitment\interview\dingtalk.py", line 17, in send
+    xiaoding.send_text(msg=('面试通知: %s' %message), at_mobiles=at_mobiles)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2023-11-19 15:29:06,472 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 15:29:11,896 root         313 ERROR    消息发送失败, Request Exception!
+2023-11-19 15:29:11,971 django.request 241 ERROR    Internal Server Error: /admin/running/area/
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: area
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: area
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\PycharmProject\recruitment\interview\performance.py", line 55, in process_exception
+    dingtalk.send(message)
+  File "F:\PycharmProject\recruitment\interview\dingtalk.py", line 17, in send
+    xiaoding.send_text(msg=('面试通知: %s' %message), at_mobiles=at_mobiles)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2023-11-19 15:31:37,802 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 15:31:40,370 root         313 ERROR    消息发送失败, Request Exception!
+2023-11-19 15:31:40,473 django.request 241 ERROR    Internal Server Error: /admin/running/area/
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: running_area
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: running_area
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\PycharmProject\recruitment\interview\performance.py", line 55, in process_exception
+    dingtalk.send(message)
+  File "F:\PycharmProject\recruitment\interview\dingtalk.py", line 17, in send
+    xiaoding.send_text(msg=('面试通知: %s' %message), at_mobiles=at_mobiles)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2023-11-19 15:31:45,263 root         313 ERROR    消息发送失败, Request Exception!
+2023-11-19 15:31:45,338 django.request 241 ERROR    Internal Server Error: /admin/running/area/
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: running_area
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: running_area
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\PycharmProject\recruitment\interview\performance.py", line 55, in process_exception
+    dingtalk.send(message)
+  File "F:\PycharmProject\recruitment\interview\dingtalk.py", line 17, in send
+    xiaoding.send_text(msg=('面试通知: %s' %message), at_mobiles=at_mobiles)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2023-11-19 15:34:36,103 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 15:34:39,160 root         313 ERROR    消息发送失败, Request Exception!
+2023-11-19 15:34:39,265 django.request 241 ERROR    Internal Server Error: /admin/running/area/
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: running_area
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: running_area
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\PycharmProject\recruitment\interview\performance.py", line 55, in process_exception
+    dingtalk.send(message)
+  File "F:\PycharmProject\recruitment\interview\dingtalk.py", line 17, in send
+    xiaoding.send_text(msg=('面试通知: %s' %message), at_mobiles=at_mobiles)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2023-11-19 15:34:50,405 root         313 ERROR    消息发送失败, Request Exception!
+2023-11-19 15:34:50,477 django.request 241 ERROR    Internal Server Error: /admin/running/area/
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: running_area
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: running_area
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\PycharmProject\recruitment\interview\performance.py", line 55, in process_exception
+    dingtalk.send(message)
+  File "F:\PycharmProject\recruitment\interview\dingtalk.py", line 17, in send
+    xiaoding.send_text(msg=('面试通知: %s' %message), at_mobiles=at_mobiles)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2023-11-19 15:36:39,171 root         313 ERROR    消息发送失败, Request Exception!
+2023-11-19 15:36:39,247 django.request 241 ERROR    Internal Server Error: /admin/running/area/
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: running_area
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: running_area
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 199, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 362, in process_exception_by_middleware
+    response = middleware_method(request, exception)
+  File "F:\PycharmProject\recruitment\interview\performance.py", line 55, in process_exception
+    dingtalk.send(message)
+  File "F:\PycharmProject\recruitment\interview\dingtalk.py", line 17, in send
+    xiaoding.send_text(msg=('面试通知: %s' %message), at_mobiles=at_mobiles)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 142, in send_text
+    return self.post(data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\dingtalkchatbot\chatbot.py", line 302, in post
+    response = requests.post(self.webhook, headers=self.headers, data=post_data)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2023-11-19 15:44:02,760 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 15:52:18,935 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\running\admin.py changed, reloading.
+2023-11-19 15:52:20,397 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 19:49:42,531 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 19:59:36,944 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\jobs\apps.py changed, reloading.
+2023-11-19 19:59:38,446 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 20:01:49,969 django.utils.autoreload 266 INFO     F:\PycharmProject\recruitment\settings\base.py changed, reloading.
+2023-11-19 20:01:50,852 jobs.apps    12 INFO     JobConfig ready
+2023-11-19 20:01:51,591 django.utils.autoreload 668 INFO     Watching for file changes with StatReloader
+2023-11-19 20:02:17,746 jobs.singal_processor 22 INFO     Resume for Lily 算法工程师 has been saved 
+2023-11-21 21:38:59,870 jobs.apps    12 INFO     JobConfig ready
+2023-11-21 21:39:01,621 jobs.singal_processor 22 INFO     Job for Java开发工程师 has been saved
+2023-11-21 21:39:01,640 jobs.views   41 INFO     job info fetched from database jobid: 1

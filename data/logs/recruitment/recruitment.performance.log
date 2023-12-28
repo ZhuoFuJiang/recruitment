@@ -1,0 +1,1162 @@
+2023-11-19 07:33:55,320 interview.performance 13 INFO     0.21442413330078125 /admin/interview/candidate/ {}
+2023-11-19 07:33:55,533 interview.performance 13 INFO     0.004986763000488281 /admin/jsi18n/ {}
+2023-11-19 07:34:23,044 interview.performance 13 INFO     0.05086255073547363 /admin/interview/candidate/ {}
+2023-11-19 07:34:23,247 interview.performance 13 INFO     0.003989458084106445 /admin/jsi18n/ {}
+2023-11-19 07:36:15,598 interview.performance 13 INFO     0.005984306335449219 /resume/2 {}
+2023-11-19 07:36:37,004 interview.performance 13 INFO     0.07679510116577148 /admin/interview/candidate/3/change/ {}
+2023-11-19 07:36:37,188 interview.performance 13 INFO     0.004986286163330078 /admin/jsi18n/ {}
+2023-11-19 07:37:39,123 interview.performance 13 INFO     0.031914710998535156 /admin/jobs/job/ {}
+2023-11-19 07:37:39,318 interview.performance 13 INFO     0.003988981246948242 /admin/jsi18n/ {}
+2023-11-19 07:47:37,538 interview.performance 13 INFO     0.024931907653808594 /joblist/ {}
+2023-11-19 07:47:47,851 interview.performance 13 INFO     0.0059833526611328125 /job/1 {}
+2023-11-19 07:47:51,537 interview.performance 13 INFO     0.00397944450378418 /joblist/ {}
+2023-11-19 07:47:53,219 interview.performance 13 INFO     0.0039882659912109375 / {}
+2023-11-19 08:10:26,491 interview.performance 13 INFO     0.02371072769165039 / {}
+2023-11-19 08:10:38,310 interview.performance 13 INFO     0.005984306335449219 /job/1 {}
+2023-11-19 08:10:40,189 interview.performance 13 INFO     0.0049855709075927734 / {}
+2023-11-19 08:10:41,989 interview.performance 13 INFO     0.0050160884857177734 /job/2 {}
+2023-11-19 08:10:43,023 interview.performance 13 INFO     0.004985332489013672 /joblist/ {}
+2023-11-19 08:12:31,422 interview.performance 13 INFO     0.017979860305786133 /joblist/ {}
+2023-11-19 08:13:23,805 interview.performance 13 INFO     0.0109710693359375 /joblist/ {}
+2023-11-19 08:16:10,096 interview.performance 13 INFO     0.010970354080200195 /joblist/ {}
+2023-11-19 08:16:12,998 interview.performance 13 INFO     0.012993097305297852 /i18n/setlang/ {}
+2023-11-19 08:16:13,020 interview.performance 13 INFO     0.0070111751556396484 /joblist/ {}
+2023-11-19 08:17:49,885 interview.performance 13 INFO     0.03152036666870117 /joblist/ {}
+2023-11-19 08:17:55,675 interview.performance 13 INFO     0.006981372833251953 /i18n/setlang/ {}
+2023-11-19 08:17:55,697 interview.performance 13 INFO     0.005983114242553711 /joblist/ {}
+2023-11-19 08:17:57,604 interview.performance 13 INFO     0.0019958019256591797 /i18n/setlang/ {}
+2023-11-19 08:17:57,625 interview.performance 13 INFO     0.004986763000488281 /joblist/ {}
+2023-11-19 08:18:03,418 interview.performance 13 INFO     0.006981849670410156 /job/1 {}
+2023-11-19 08:18:08,308 interview.performance 13 INFO     0.001993417739868164 /i18n/setlang/ {}
+2023-11-19 08:18:08,329 interview.performance 13 INFO     0.004988908767700195 /job/1 {}
+2023-11-19 08:19:00,727 interview.performance 13 INFO     0.15658068656921387 /admin/jobs/resume/ {}
+2023-11-19 08:19:00,932 interview.performance 13 INFO     0.0049855709075927734 /admin/jsi18n/ {}
+2023-11-19 08:19:02,131 interview.performance 13 INFO     0.021939992904663086 /admin/jobs/job/ {}
+2023-11-19 08:19:02,360 interview.performance 13 INFO     0.005062103271484375 /admin/jsi18n/ {}
+2023-11-19 08:19:04,654 interview.performance 13 INFO     0.021939516067504883 /admin/jobs/resume/ {}
+2023-11-19 08:19:04,861 interview.performance 13 INFO     0.004986286163330078 /admin/jsi18n/ {}
+2023-11-19 08:19:06,065 interview.performance 13 INFO     0.020943403244018555 /admin/jobs/job/ {}
+2023-11-19 08:19:06,256 interview.performance 13 INFO     0.00598454475402832 /admin/jsi18n/ {}
+2023-11-19 08:19:11,317 interview.performance 13 INFO     0.0827784538269043 /admin/interview/candidate/ {}
+2023-11-19 08:19:11,546 interview.performance 13 INFO     0.003989219665527344 /admin/jsi18n/ {}
+2023-11-19 08:19:12,913 interview.performance 13 INFO     0.020943403244018555 /admin/jobs/resume/ {}
+2023-11-19 08:19:13,126 interview.performance 13 INFO     0.004986763000488281 /admin/jsi18n/ {}
+2023-11-19 08:19:21,248 interview.performance 13 INFO     0.024931669235229492 /admin/jobs/job/ {}
+2023-11-19 08:19:21,495 interview.performance 13 INFO     0.003989219665527344 /admin/jsi18n/ {}
+2023-11-19 09:45:12,778 interview.performance 52 WARNING  url:http://localhost:8080/detail_resume/3/ ** msg:Http404('resume does not exist') ````Traceback (most recent call last):
+  File "F:\PycharmProject\recruitment\jobs\views.py", line 45, in detail_resume
+    resume = Resume.objects.get(pk=resume_id)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+jobs.models.Resume.DoesNotExist: Resume matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\PycharmProject\recruitment\jobs\views.py", line 49, in detail_resume
+    raise Http404("resume does not exist")
+django.http.response.Http404: resume does not exist
+````
+2023-11-19 09:45:12,852 interview.performance 37 INFO     duration:0.09719991683959961 url:/detail_resume/3/ parameters:{}
+2023-11-19 09:46:04,633 interview.performance 37 INFO     duration:0.019974231719970703 url:/detail_resume/1 parameters:{}
+2023-11-19 09:46:04,647 interview.performance 37 INFO     duration:0.0021407604217529297 url:/detail_resume/1/ parameters:{}
+2023-11-19 09:48:19,655 interview.performance 37 INFO     duration:0.007977485656738281 url:/i18n/setlang/ parameters:{}
+2023-11-19 09:48:19,683 interview.performance 37 INFO     duration:0.010970354080200195 url:/job/1 parameters:{}
+2023-11-19 09:48:22,330 interview.performance 37 INFO     duration:0.008975505828857422 url:/ parameters:{}
+2023-11-19 09:48:23,693 interview.performance 37 INFO     duration:0.004985332489013672 url:/job/1 parameters:{}
+2023-11-19 09:48:24,713 interview.performance 37 INFO     duration:0.12170267105102539 url:/resume/add/ parameters:{'apply_position': '算法工程师', 'city': '北京'}
+2023-11-19 09:48:30,639 interview.performance 37 INFO     duration:0.008975505828857422 url:/accounts/logout/ parameters:{}
+2023-11-19 09:48:31,771 interview.performance 37 INFO     duration:0.00800180435180664 url:/accounts/login/ parameters:{}
+2023-11-19 09:48:36,123 interview.performance 37 INFO     duration:0.015980958938598633 url:/accounts/register/ parameters:{}
+2023-11-19 09:49:00,157 interview.performance 37 INFO     duration:0.7813327312469482 url:/accounts/register/ parameters:{}
+2023-11-19 09:49:00,180 interview.performance 37 INFO     duration:0.00504755973815918 url:/ parameters:{}
+2023-11-19 09:49:04,427 interview.performance 37 INFO     duration:0.004985332489013672 url:/job/1 parameters:{}
+2023-11-19 09:49:05,974 interview.performance 37 INFO     duration:0.013959646224975586 url:/resume/add/ parameters:{'apply_position': '算法工程师', 'city': '北京'}
+2023-11-19 09:52:00,933 interview.performance 37 INFO     duration:0.01196742057800293 url:/resume/add/ parameters:{'apply_position': '算法工程师', 'city': '北京'}
+2023-11-19 09:52:00,956 interview.performance 37 INFO     duration:0.006981849670410156 url:/joblist parameters:{}
+2023-11-19 09:52:01,218 interview.performance 37 INFO     duration:0.005983829498291016 url:/joblist/ parameters:{}
+2023-11-19 09:52:10,916 interview.performance 37 INFO     duration:0.0029916763305664062 url:/admin/logout/ parameters:{}
+2023-11-19 09:52:16,068 interview.performance 37 INFO     duration:0.014959573745727539 url:/admin/ parameters:{}
+2023-11-19 09:52:16,100 interview.performance 37 INFO     duration:0.01798081398010254 url:/admin/login/ parameters:{'next': '/admin/'}
+2023-11-19 09:52:25,357 interview.performance 37 INFO     duration:0.35445547103881836 url:/admin/login/ parameters:{'next': '/admin/'}
+2023-11-19 09:52:25,398 interview.performance 37 INFO     duration:0.02293682098388672 url:/admin/ parameters:{}
+2023-11-19 09:52:29,524 interview.performance 37 INFO     duration:0.06548094749450684 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 09:52:29,734 interview.performance 37 INFO     duration:0.004987001419067383 url:/admin/jsi18n/ parameters:{}
+2023-11-19 09:52:35,921 interview.performance 37 INFO     duration:0.06784772872924805 url:/admin/interview/candidate/ parameters:{}
+2023-11-19 09:52:36,162 interview.performance 37 INFO     duration:0.005981922149658203 url:/admin/jsi18n/ parameters:{}
+2023-11-19 09:52:39,828 interview.performance 37 INFO     duration:0.0219419002532959 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 09:52:40,036 interview.performance 37 INFO     duration:0.006058692932128906 url:/admin/jsi18n/ parameters:{}
+2023-11-19 09:52:42,431 interview.performance 37 INFO     duration:0.04690217971801758 url:/admin/jobs/resume/3/change/ parameters:{}
+2023-11-19 09:52:42,690 interview.performance 37 INFO     duration:0.005984783172607422 url:/admin/jsi18n/ parameters:{}
+2023-11-19 09:53:03,842 interview.performance 37 INFO     duration:0.024170398712158203 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 09:53:04,075 interview.performance 37 INFO     duration:0.006981611251831055 url:/admin/jsi18n/ parameters:{}
+2023-11-19 09:53:09,572 interview.performance 37 INFO     duration:0.012964963912963867 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 09:53:09,610 interview.performance 37 INFO     duration:0.01994919776916504 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 09:53:09,813 interview.performance 37 INFO     duration:0.004986763000488281 url:/admin/jsi18n/ parameters:{}
+2023-11-19 09:53:17,647 interview.performance 37 INFO     duration:0.023935794830322266 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 09:53:17,838 interview.performance 37 INFO     duration:0.003989219665527344 url:/admin/jsi18n/ parameters:{}
+2023-11-19 09:53:20,329 interview.performance 37 INFO     duration:0.05884289741516113 url:/admin/interview/candidate/ parameters:{}
+2023-11-19 09:53:20,532 interview.performance 37 INFO     duration:0.00498652458190918 url:/admin/jsi18n/ parameters:{}
+2023-11-19 09:53:41,643 interview.performance 37 INFO     duration:0.0212552547454834 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 09:53:41,834 interview.performance 37 INFO     duration:0.003988981246948242 url:/admin/jsi18n/ parameters:{}
+2023-11-19 09:53:49,467 interview.performance 37 INFO     duration:0.013622760772705078 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 09:53:49,504 interview.performance 37 INFO     duration:0.017952919006347656 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 09:53:49,702 interview.performance 37 INFO     duration:0.0039904117584228516 url:/admin/jsi18n/ parameters:{}
+2023-11-19 09:53:51,497 interview.performance 37 INFO     duration:0.050537824630737305 url:/admin/interview/candidate/ parameters:{}
+2023-11-19 09:53:51,681 interview.performance 37 INFO     duration:0.00498652458190918 url:/admin/jsi18n/ parameters:{}
+2023-11-19 09:54:10,843 interview.performance 37 INFO     duration:0.021941184997558594 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 09:54:11,040 interview.performance 37 INFO     duration:0.004987239837646484 url:/admin/jsi18n/ parameters:{}
+2023-11-19 09:54:13,765 interview.performance 37 INFO     duration:0.05385446548461914 url:/admin/interview/candidate/ parameters:{}
+2023-11-19 09:54:14,002 interview.performance 37 INFO     duration:0.005984306335449219 url:/admin/jsi18n/ parameters:{}
+2023-11-19 09:56:05,617 interview.performance 37 INFO     duration:0.030946731567382812 url:/admin/auth/user/ parameters:{}
+2023-11-19 09:56:05,824 interview.performance 37 INFO     duration:0.003988981246948242 url:/admin/jsi18n/ parameters:{}
+2023-11-19 09:56:31,517 interview.performance 37 INFO     duration:0.023935794830322266 url:/admin/registration/registrationprofile/ parameters:{}
+2023-11-19 09:56:31,680 interview.performance 37 INFO     duration:0.004986286163330078 url:/admin/jsi18n/ parameters:{}
+2023-11-19 09:56:35,870 interview.performance 37 INFO     duration:0.0498659610748291 url:/admin/interview/candidate/ parameters:{}
+2023-11-19 09:56:36,106 interview.performance 37 INFO     duration:0.004985332489013672 url:/admin/jsi18n/ parameters:{}
+2023-11-19 09:56:58,807 interview.performance 37 INFO     duration:0.025997638702392578 url:/admin/jobs/job/ parameters:{}
+2023-11-19 09:56:59,008 interview.performance 37 INFO     duration:0.003989696502685547 url:/admin/jsi18n/ parameters:{}
+2023-11-19 09:56:59,947 interview.performance 37 INFO     duration:0.020944833755493164 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 09:57:00,175 interview.performance 37 INFO     duration:0.005983591079711914 url:/admin/jsi18n/ parameters:{}
+2023-11-19 09:57:02,357 interview.performance 37 INFO     duration:0.04886817932128906 url:/admin/interview/candidate/ parameters:{}
+2023-11-19 09:57:02,534 interview.performance 37 INFO     duration:0.0069811344146728516 url:/admin/jsi18n/ parameters:{}
+2023-11-19 09:57:14,234 interview.performance 37 INFO     duration:0.005983114242553711 url:/resume/3 parameters:{}
+2023-11-19 09:57:29,933 interview.performance 37 INFO     duration:0.0069806575775146484 url:/detail_resume/3 parameters:{}
+2023-11-19 09:57:29,955 interview.performance 37 INFO     duration:0.003018617630004883 url:/detail_resume/3/ parameters:{}
+2023-11-19 10:02:07,995 interview.performance 37 INFO     duration:0.011966466903686523 url:/detail_resume/3/ parameters:{}
+2023-11-19 10:25:59,277 interview.performance 37 INFO     duration:0.014958858489990234 url:/create_hr_user parameters:{}
+2023-11-19 10:25:59,305 interview.performance 37 INFO     duration:0.015984296798706055 url:/create_hr_user/ parameters:{}
+2023-11-19 10:26:55,894 interview.performance 37 INFO     duration:0.35556983947753906 url:/create_hr_user/ parameters:{}
+2023-11-19 10:27:04,308 interview.performance 37 INFO     duration:0.07243084907531738 url:/admin/auth/user/ parameters:{}
+2023-11-19 10:27:04,523 interview.performance 37 INFO     duration:0.005982875823974609 url:/admin/jsi18n/ parameters:{}
+2023-11-19 10:27:11,048 interview.performance 37 INFO     duration:0.022938251495361328 url:/admin/auth/group/ parameters:{}
+2023-11-19 10:27:11,253 interview.performance 37 INFO     duration:0.00498652458190918 url:/admin/jsi18n/ parameters:{}
+2023-11-19 10:27:12,779 interview.performance 37 INFO     duration:0.042997121810913086 url:/admin/auth/group/2/change/ parameters:{}
+2023-11-19 10:27:12,980 interview.performance 37 INFO     duration:0.0049855709075927734 url:/admin/jsi18n/ parameters:{}
+2023-11-19 10:27:15,469 interview.performance 37 INFO     duration:0.02194070816040039 url:/admin/auth/user/ parameters:{}
+2023-11-19 10:27:15,664 interview.performance 37 INFO     duration:0.003989458084106445 url:/admin/jsi18n/ parameters:{}
+2023-11-19 10:27:17,316 interview.performance 37 INFO     duration:0.016954421997070312 url:/admin/auth/group/ parameters:{}
+2023-11-19 10:27:17,514 interview.performance 37 INFO     duration:0.0049860477447509766 url:/admin/jsi18n/ parameters:{}
+2023-11-19 10:27:19,422 interview.performance 37 INFO     duration:0.026926755905151367 url:/admin/auth/group/2/change/ parameters:{}
+2023-11-19 10:27:19,587 interview.performance 37 INFO     duration:0.004985809326171875 url:/admin/jsi18n/ parameters:{}
+2023-11-19 10:27:23,676 interview.performance 37 INFO     duration:0.022937297821044922 url:/admin/auth/user/ parameters:{}
+2023-11-19 10:27:23,848 interview.performance 37 INFO     duration:0.004986286163330078 url:/admin/jsi18n/ parameters:{}
+2023-11-19 10:27:25,812 interview.performance 37 INFO     duration:0.04388165473937988 url:/admin/auth/user/7/change/ parameters:{}
+2023-11-19 10:27:26,020 interview.performance 37 INFO     duration:0.004985809326171875 url:/admin/jsi18n/ parameters:{}
+2023-11-19 10:34:12,882 interview.performance 37 INFO     duration:0.023772239685058594 url:/create_hr_user/ parameters:{}
+2023-11-19 10:35:39,318 interview.performance 37 INFO     duration:0.07878780364990234 url:/admin/auth/user/ parameters:{}
+2023-11-19 10:35:39,530 interview.performance 37 INFO     duration:0.0069806575775146484 url:/admin/jsi18n/ parameters:{}
+2023-11-19 10:35:49,069 interview.performance 37 INFO     duration:0.35651636123657227 url:/create_hr_user/ parameters:{}
+2023-11-19 10:36:03,151 interview.performance 37 INFO     duration:0.025929689407348633 url:/admin/auth/user/ parameters:{}
+2023-11-19 10:36:03,340 interview.performance 37 INFO     duration:0.003988742828369141 url:/admin/jsi18n/ parameters:{}
+2023-11-19 10:54:00,045 interview.performance 37 INFO     duration:0.08031845092773438 url:/api/ parameters:{}
+2023-11-19 10:54:08,906 interview.performance 37 INFO     duration:0.02795720100402832 url:/api/users/ parameters:{}
+2023-11-19 10:54:18,631 interview.performance 37 INFO     duration:0.023963212966918945 url:/api/jobs/ parameters:{}
+2023-11-19 10:55:04,377 interview.performance 37 INFO     duration:0.01795220375061035 url:/api/jobs/1/ parameters:{}
+2023-11-19 10:55:12,076 interview.performance 37 INFO     duration:0.016977787017822266 url:/api/jobs/1/ parameters:{}
+2023-11-19 10:55:17,512 interview.performance 37 INFO     duration:0.014958381652832031 url:/api/users/1/ parameters:{}
+2023-11-19 10:56:57,345 interview.performance 37 INFO     duration:0.013683319091796875 url:/api/users/1/ parameters:{}
+2023-11-19 10:57:01,922 interview.performance 37 INFO     duration:0.014989852905273438 url:/api/users/ parameters:{}
+2023-11-19 10:57:03,026 interview.performance 37 INFO     duration:0.005983591079711914 url:/api/ parameters:{}
+2023-11-19 10:57:05,315 interview.performance 37 INFO     duration:0.016953229904174805 url:/api/jobs/ parameters:{}
+2023-11-19 11:10:12,138 interview.performance 37 INFO     duration:0.03293967247009277 url:/admin/ parameters:{}
+2023-11-19 11:10:34,254 interview.performance 37 INFO     duration:0.07981467247009277 url:/admin/interview/candidate/ parameters:{}
+2023-11-19 11:10:34,476 interview.performance 37 INFO     duration:0.004987239837646484 url:/admin/jsi18n/ parameters:{}
+2023-11-19 11:10:37,308 interview.performance 37 INFO     duration:0.0059833526611328125 url:/resume/2 parameters:{}
+2023-11-19 11:10:49,427 interview.performance 37 INFO     duration:0.002993345260620117 url:/resume/2 parameters:{}
+2023-11-19 11:13:17,610 interview.performance 37 INFO     duration:0.017951488494873047 url:/resume/2 parameters:{}
+2023-11-19 11:14:45,359 interview.performance 37 INFO     duration:0.02496027946472168 url:/joblist/ parameters:{}
+2023-11-19 11:14:47,219 interview.performance 37 INFO     duration:0.00698089599609375 url:/job/1 parameters:{}
+2023-11-19 11:16:50,813 interview.performance 52 WARNING  url:http://localhost:8080/job/1 ** msg:AttributeError("module 'django.template.loader' has no attribute 'info'") ````Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\PycharmProject\recruitment\jobs\views.py", line 41, in detail
+    loader.info('job info fetched from database jobid: %s' % job_id)
+AttributeError: module 'django.template.loader' has no attribute 'info'
+````
+2023-11-19 11:16:50,879 interview.performance 37 INFO     duration:0.08078336715698242 url:/job/1 parameters:{}
+2023-11-19 11:17:25,770 interview.performance 37 INFO     duration:0.031937360763549805 url:/job/1 parameters:{}
+2023-11-19 11:17:36,024 interview.performance 37 INFO     duration:0.0 url:/job/1 parameters:{}
+2023-11-19 11:17:41,204 interview.performance 37 INFO     duration:0.0 url:/job/1 parameters:{}
+2023-11-19 11:18:56,569 interview.performance 37 INFO     duration:0.007978200912475586 url:/job/2 parameters:{}
+2023-11-19 14:35:15,595 interview.performance 37 INFO     duration:0.017951488494873047 url:/resume/3 parameters:{}
+2023-11-19 14:38:41,132 interview.performance 37 INFO     duration:0.10172796249389648 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 14:38:41,337 interview.performance 37 INFO     duration:0.005983591079711914 url:/admin/jsi18n/ parameters:{}
+2023-11-19 14:38:42,386 interview.performance 37 INFO     duration:0.06881594657897949 url:/admin/jobs/resume/add/ parameters:{}
+2023-11-19 14:39:22,149 interview.performance 37 INFO     duration:0.003988981246948242 url:/resume/add/ parameters:{'apply_position': '资深移动开发工程师', 'city': '深圳'}
+2023-11-19 14:39:41,973 interview.performance 37 INFO     duration:0.11768412590026855 url:/resume/add/ parameters:{'apply_position': '资深移动开发工程师', 'city': '深圳'}
+2023-11-19 14:39:57,477 interview.performance 37 INFO     duration:0.012660980224609375 url:/resume/add/ parameters:{'apply_position': '资深移动开发工程师', 'city': '深圳'}
+2023-11-19 14:39:57,506 interview.performance 37 INFO     duration:0.01296234130859375 url:/joblist parameters:{}
+2023-11-19 14:39:57,532 interview.performance 37 INFO     duration:0.009977340698242188 url:/joblist/ parameters:{}
+2023-11-19 14:40:04,080 interview.performance 37 INFO     duration:0.023532867431640625 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 14:40:47,026 interview.performance 37 INFO     duration:0.033907413482666016 url:/admin/jobs/resume/4/change/ parameters:{}
+2023-11-19 14:41:00,079 interview.performance 37 INFO     duration:0.29018259048461914 url:/admin/jobs/resume/4/change/ parameters:{}
+2023-11-19 14:41:00,121 interview.performance 37 INFO     duration:0.0249330997467041 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 14:41:17,596 interview.performance 37 INFO     duration:0.03191399574279785 url:/admin/jobs/resume/4/change/ parameters:{}
+2023-11-19 14:42:59,855 interview.performance 37 INFO     duration:0.024932861328125 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 14:44:28,951 interview.performance 37 INFO     duration:0.10075855255126953 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 14:44:29,274 interview.performance 37 INFO     duration:0.002022981643676758 url:/media/images/收入证明.jpg parameters:{}
+2023-11-19 14:44:29,859 interview.performance 37 INFO     duration:0.0019936561584472656 url:/media/images/收入证明.jpg parameters:{}
+2023-11-19 15:11:29,668 interview.performance 37 INFO     duration:0.11668515205383301 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 15:11:29,872 interview.performance 37 INFO     duration:0.0069806575775146484 url:/admin/jsi18n/ parameters:{}
+2023-11-19 15:11:30,011 interview.performance 37 INFO     duration:0.000997781753540039 url:/media/images/收入证明.jpg parameters:{}
+2023-11-19 15:11:33,897 interview.performance 52 WARNING  url:http://localhost:8080/admin/running/city/ ** msg:OperationalError('no such table: city') ````Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: city
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: city
+````
+2023-11-19 15:11:33,997 interview.performance 37 INFO     duration:0.11568498611450195 url:/admin/running/city/ parameters:{}
+2023-11-19 15:13:21,507 interview.performance 37 INFO     duration:0.024315834045410156 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 15:13:23,100 interview.performance 52 WARNING  url:http://localhost:8080/admin/running/country/ ** msg:OperationalError('no such table: country') ````Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: country
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: country
+````
+2023-11-19 15:13:23,191 interview.performance 37 INFO     duration:0.09843111038208008 url:/admin/running/country/ parameters:{}
+2023-11-19 15:16:42,751 interview.performance 37 INFO     duration:0.017168760299682617 url:/admin parameters:{}
+2023-11-19 15:16:42,847 interview.performance 37 INFO     duration:0.08308696746826172 url:/admin/ parameters:{}
+2023-11-19 15:16:44,721 interview.performance 52 WARNING  url:http://localhost:8080/admin/running/city/ ** msg:OperationalError('no such table: city') ````Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: city
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: city
+````
+2023-11-19 15:16:44,814 interview.performance 37 INFO     duration:0.10416078567504883 url:/admin/running/city/ parameters:{}
+2023-11-19 15:16:47,565 interview.performance 37 INFO     duration:0.020944595336914062 url:/admin/ parameters:{}
+2023-11-19 15:16:48,882 interview.performance 37 INFO     duration:0.04468965530395508 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 15:16:55,919 interview.performance 37 INFO     duration:0.019946813583374023 url:/admin/ parameters:{}
+2023-11-19 15:17:03,398 interview.performance 52 WARNING  url:http://localhost:8080/admin/running/city/ ** msg:OperationalError('no such table: city') ````Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: city
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: city
+````
+2023-11-19 15:17:03,485 interview.performance 37 INFO     duration:0.09453177452087402 url:/admin/running/city/ parameters:{}
+2023-11-19 15:17:04,875 interview.performance 37 INFO     duration:0.01795196533203125 url:/admin/ parameters:{}
+2023-11-19 15:18:16,334 interview.performance 37 INFO     duration:0.0887913703918457 url:/admin/ parameters:{}
+2023-11-19 15:18:18,339 interview.performance 52 WARNING  url:http://localhost:8080/admin/running/city/ ** msg:OperationalError('no such table: city') ````Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: city
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: city
+````
+2023-11-19 15:18:18,430 interview.performance 37 INFO     duration:0.1042931079864502 url:/admin/running/city/ parameters:{}
+2023-11-19 15:18:20,336 interview.performance 37 INFO     duration:0.017938613891601562 url:/admin/ parameters:{}
+2023-11-19 15:18:21,739 interview.performance 52 WARNING  url:http://localhost:8080/admin/running/province/ ** msg:OperationalError('no such table: province') ````Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: province
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: province
+````
+2023-11-19 15:18:21,830 interview.performance 37 INFO     duration:0.09673905372619629 url:/admin/running/province/ parameters:{}
+2023-11-19 15:18:26,763 interview.performance 37 INFO     duration:0.020944595336914062 url:/admin/ parameters:{}
+2023-11-19 15:18:28,366 interview.performance 37 INFO     duration:0.08037137985229492 url:/admin/interview/candidate/ parameters:{}
+2023-11-19 15:18:31,807 interview.performance 37 INFO     duration:0.02094411849975586 url:/admin/ parameters:{}
+2023-11-19 15:20:52,945 interview.performance 37 INFO     duration:0.09275245666503906 url:/admin/ parameters:{}
+2023-11-19 15:20:55,888 interview.performance 52 WARNING  url:http://localhost:8080/admin/running/area/ ** msg:OperationalError('no such table: area') ````Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: area
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: area
+````
+2023-11-19 15:20:55,980 interview.performance 37 INFO     duration:0.10272383689880371 url:/admin/running/area/ parameters:{}
+2023-11-19 15:28:11,911 interview.performance 52 WARNING  url:http://localhost:8080/admin/running/area/ ** msg:OperationalError('no such table: area') ````Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: area
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: area
+````
+2023-11-19 15:28:12,009 interview.performance 37 INFO     duration:0.11659646034240723 url:/admin/running/area/ parameters:{}
+2023-11-19 15:28:14,108 interview.performance 37 INFO     duration:0.054853200912475586 url:/admin/ parameters:{}
+2023-11-19 15:28:16,047 interview.performance 52 WARNING  url:http://localhost:8080/admin/running/area/ ** msg:OperationalError('no such table: area') ````Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: area
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: area
+````
+2023-11-19 15:28:16,132 interview.performance 37 INFO     duration:0.09275031089782715 url:/admin/running/area/ parameters:{}
+2023-11-19 15:29:10,112 interview.performance 37 INFO     duration:0.09277892112731934 url:/admin/ parameters:{}
+2023-11-19 15:29:11,890 interview.performance 52 WARNING  url:http://localhost:8080/admin/running/area/ ** msg:OperationalError('no such table: area') ````Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: area
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: area
+````
+2023-11-19 15:29:11,981 interview.performance 37 INFO     duration:0.10272383689880371 url:/admin/running/area/ parameters:{}
+2023-11-19 15:31:40,364 interview.performance 52 WARNING  url:http://localhost:8080/admin/running/area/ ** msg:OperationalError('no such table: running_area') ````Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: running_area
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: running_area
+````
+2023-11-19 15:31:40,485 interview.performance 37 INFO     duration:0.1375288963317871 url:/admin/running/area/ parameters:{}
+2023-11-19 15:31:43,583 interview.performance 37 INFO     duration:0.061833858489990234 url:/admin/ parameters:{}
+2023-11-19 15:31:45,258 interview.performance 52 WARNING  url:http://localhost:8080/admin/running/area/ ** msg:OperationalError('no such table: running_area') ````Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: running_area
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: running_area
+````
+2023-11-19 15:31:45,347 interview.performance 37 INFO     duration:0.09574270248413086 url:/admin/running/area/ parameters:{}
+2023-11-19 15:34:39,154 interview.performance 52 WARNING  url:http://localhost:8080/admin/running/area/ ** msg:OperationalError('no such table: running_area') ````Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: running_area
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: running_area
+````
+2023-11-19 15:34:39,275 interview.performance 37 INFO     duration:0.13764142990112305 url:/admin/running/area/ parameters:{}
+2023-11-19 15:34:48,775 interview.performance 37 INFO     duration:0.05584883689880371 url:/admin/ parameters:{}
+2023-11-19 15:34:50,400 interview.performance 52 WARNING  url:http://localhost:8080/admin/running/area/ ** msg:OperationalError('no such table: running_area') ````Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: running_area
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: running_area
+````
+2023-11-19 15:34:50,487 interview.performance 37 INFO     duration:0.09337186813354492 url:/admin/running/area/ parameters:{}
+2023-11-19 15:36:34,077 interview.performance 37 INFO     duration:0.018948793411254883 url:/admin/ parameters:{}
+2023-11-19 15:36:35,564 interview.performance 37 INFO     duration:0.07837605476379395 url:/admin/interview/candidate/ parameters:{}
+2023-11-19 15:36:35,796 interview.performance 37 INFO     duration:0.005983114242553711 url:/admin/jsi18n/ parameters:{}
+2023-11-19 15:36:39,167 interview.performance 52 WARNING  url:http://localhost:8080/admin/running/area/ ** msg:OperationalError('no such table: running_area') ````Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: running_area
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\Anaconda\envs\taichi\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: running_area
+````
+2023-11-19 15:36:39,258 interview.performance 37 INFO     duration:0.09929013252258301 url:/admin/running/area/ parameters:{}
+2023-11-19 15:44:06,029 interview.performance 37 INFO     duration:0.1257007122039795 url:/admin/running/area/ parameters:{}
+2023-11-19 15:44:08,676 interview.performance 37 INFO     duration:0.024933338165283203 url:/admin/running/city/ parameters:{}
+2023-11-19 15:44:09,574 interview.performance 37 INFO     duration:0.02194070816040039 url:/admin/running/country/ parameters:{}
+2023-11-19 15:44:10,508 interview.performance 37 INFO     duration:0.01905035972595215 url:/admin/running/province/ parameters:{}
+2023-11-19 15:52:21,337 interview.performance 37 INFO     duration:0.09873509407043457 url:/admin/running/city/ parameters:{}
+2023-11-19 15:52:21,552 interview.performance 37 INFO     duration:0.0069811344146728516 url:/admin/jsi18n/ parameters:{}
+2023-11-19 15:52:22,476 interview.performance 37 INFO     duration:0.020943641662597656 url:/admin/running/country/ parameters:{}
+2023-11-19 15:52:23,851 interview.performance 37 INFO     duration:0.02094435691833496 url:/admin/running/province/ parameters:{}
+2023-11-19 19:49:48,737 interview.performance 37 INFO     duration:0.10076093673706055 url:/admin/running/province/ parameters:{}
+2023-11-19 19:49:48,980 interview.performance 37 INFO     duration:0.007977724075317383 url:/admin/jsi18n/ parameters:{}
+2023-11-19 19:49:51,042 interview.performance 37 INFO     duration:0.021941661834716797 url:/admin/running/area/ parameters:{}
+2023-11-19 19:49:53,154 interview.performance 37 INFO     duration:0.02293682098388672 url:/admin/running/city/ parameters:{}
+2023-11-19 20:01:52,460 interview.performance 37 INFO     duration:0.11469197273254395 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 20:01:52,733 interview.performance 37 INFO     duration:0.005984306335449219 url:/admin/jsi18n/ parameters:{}
+2023-11-19 20:01:52,907 interview.performance 37 INFO     duration:0.0009968280792236328 url:/media/images/收入证明.jpg parameters:{}
+2023-11-19 20:01:57,242 interview.performance 37 INFO     duration:0.03191375732421875 url:/admin/jobs/resume/ parameters:{}
+2023-11-19 20:02:01,869 interview.performance 37 INFO     duration:0.0675821304321289 url:/admin/jobs/resume/3/change/ parameters:{}
+2023-11-19 20:02:17,751 interview.performance 37 INFO     duration:0.019946813583374023 url:/admin/jobs/resume/3/change/ parameters:{}
+2023-11-19 20:02:17,798 interview.performance 37 INFO     duration:0.020943880081176758 url:/admin/jobs/resume/ parameters:{}
+2023-11-21 21:39:01,657 interview.performance 37 INFO     duration:0.03296494483947754 url:/job/1/ parameters:{}
+2023-11-21 21:39:01,667 interview.performance 37 INFO     duration:0.008007049560546875 url:/joblist/ parameters:{}
